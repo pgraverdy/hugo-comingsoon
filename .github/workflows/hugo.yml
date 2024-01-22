@@ -49,7 +49,7 @@ jobs:
           git submodule update --remote --recursive
       - name: Check theme
         run: |
-          ls themes
+          ls /home/runner/work/hugo-comingsoon/hugo-comingsoon/themes/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
