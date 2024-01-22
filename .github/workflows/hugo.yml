@@ -46,7 +46,10 @@ jobs:
       - name: Git submodule update
         run: |
           git pull --recurse-submodules
-          git submodule update --remote --recursive        
+          git submodule update --remote --recursive
+      - name: Check theme
+        run: |
+          ls themes
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
