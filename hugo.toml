@@ -8,6 +8,5 @@ canonifyURLs = true
     description = "Tagline"
     favicon = "favicon.ico"
     message = "COMING SOON!"
-    release = ""
     background = ""
 
