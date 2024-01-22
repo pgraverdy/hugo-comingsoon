@@ -1,0 +1,12 @@
+baseURL = 'http://pgraverdy.github.io/hugo-comingsoon'
+languageCode = 'en-us'
+theme = 'coming-soon'
+
+[params]
+    title = "The Maestro Consortium"
+    description = "Tagline"
+    favicon = "favicon.ico"
+    message = "COMING SOON!"
+    release = ""
+    background = ""
+
